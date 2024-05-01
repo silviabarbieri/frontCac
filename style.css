@@ -6,11 +6,6 @@
     font-style: normal;
     background-color:black ;
   }
-  @media (max-width: 600px) {
-      .body {
-        flex: 100%;
-      }
-      }
   
   #nav{
       background-color:dark;
@@ -97,9 +92,10 @@
     font-weight: 400;
     font-style: normal;
     background-color: black;
-    padding-left: 200px;
-    padding-right: 200px;
-    }   
+    height: 40vh;
+   margin: 0;
+    } 
+    
   .busc{
       color: #ffffff;
      }
