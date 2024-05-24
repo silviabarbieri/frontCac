@@ -45,6 +45,9 @@
       color: white ;
       font-size: 10px;
   }
+#registro{
+    background-color: #717F8B;
+}
   @media (min-width: 576px) {
   #registro{
     font-family: "Nunito", sans-serif;
@@ -108,10 +111,6 @@
         color: #ffffff; 
         text-align: center;
      }
- 
-    #card{
-           
-
-    }
     
+     
      
