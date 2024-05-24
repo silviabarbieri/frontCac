@@ -14,7 +14,7 @@
   
       <a class="navbar-brand" href="index.html">
         
-        <h2>🎞️Pelis Online</a></h2><br>
+        <h3>🎞️Pelis Online</a></h3><br>
         <div class="text-center">
     <h1>Registrate</h1></div>
     <div class="card text-center bg-secondary w-50 mx-auto" id="card">
@@ -35,6 +35,7 @@
         <div class="col-md-12">
           <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div class="error-text"></div>
         </div>
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label">Ciudad</label>
@@ -46,6 +47,12 @@
         <div class="col-md-6">
           <label for="validationCustom04" class="form-label">Provincia</label>
           <select class="form-select" id="validationCustom04" required>
+              <option value=""></option>
+              <option value="BSAS">Buenos Aires</option>
+              <option value="SANT">Santa Fe</option>
+              <option value="ENT">Entre Rios</option>
+              <option value="CORD">Cordoba</option>
+              <option value="CO">Corrientes</option>
           </select>
           <div class="invalid-feedback">
             Please select a valid state.
@@ -62,7 +69,7 @@
               You must agree before submitting.
             </div>
           </div>
-        </div>
+        </div><br>
         <div class="col-12">
           <button class="btn btn-dark" type="submit">Enviar</button>
         </div>
